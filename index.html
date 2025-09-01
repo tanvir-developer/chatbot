@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Stark Tower</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="app">
+        <header class="app__header">
+            <div class="brand">Stark Tower</div>
+        </header>
+
+        <main class="chat" id="chat" aria-live="polite"></main>
+        <button class="scroll-bottom" id="scrollBtn" title="Scroll to latest" aria-label="Scroll to latest">↓</button>
+
+        <form class="composer" id="composer">
+            <textarea id="message" placeholder="Give a command, sir..." rows="1"></textarea>
+            <button id="sendBtn" type="submit">Send</button>
+        </form>
+    </div>
+
+    <template id="msgTemplate">
+        <div class="msg">
+            <div class="msg__avatar" data-role="avatar" aria-hidden="true"></div>
+            <div class="msg__name" data-role="name"></div>
+            <div class="msg__bubble" data-role="bubble"></div>
+        </div>
+    </template>
+
+    <script src="script.js"></script>
+</body>
+</html>
+
