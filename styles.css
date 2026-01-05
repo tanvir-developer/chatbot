@@ -134,6 +134,7 @@ body {
   border-radius: 18px; padding: 10px 12px; line-height: 1.4; white-space: pre-wrap;
   max-width: 75%;
   box-shadow: 0 0 0 1px rgba(0,229,255,.12) inset, 0 12px 26px rgba(0,229,255,.05) inset;
+  word-wrap: break-word;
 }
 .msg.user .msg__bubble {
   background: linear-gradient(180deg, rgba(215,31,42,1), rgba(115,10,16,1));
