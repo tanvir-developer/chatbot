@@ -7,8 +7,8 @@
   const scrollBtn = document.getElementById('scrollBtn');
 
   const HISTORY_KEY = 'gemini_chat_history_v1';
-  const MODEL_NAME = 'gemini-1.5-flash';
-  const API_KEY = 'AIzaSyB1zs6zZa3GBXySu0YElLxZdR5WS4Mhz68'; // TODO: replace with your actual key
+  const MODEL_NAME = 'gemini-2.5-flash';
+  const API_KEY = 'AIzaSyA-yhek7ozS9_sJrtjgYb9GC3riMpzBGz4'; // TODO: replace with your actual key
 
   let isSending = false;
   let messages = [];
